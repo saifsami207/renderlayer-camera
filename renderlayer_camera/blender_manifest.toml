@@ -1,0 +1,21 @@
+schema_version = "1.0.0"
+
+id = "renderlayer_camera"
+version = "1.0.0"
+name = "RenderLayer Camera"
+tagline = "Assign a camera per View Layer and batch render cleanly"
+maintainer = "Saif Sami"
+type = "add-on"
+website = "https://github.com/saifsami207/renderlayer-camera"
+
+tags = ["Render", "Camera"]
+
+blender_version_min = "5.3.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Save rendered View Layer images to the chosen output folder"
+
+[build]
+paths_exclude_pattern = ["__pycache__/", "*.pyc", "/.git/", "/tests/", "*.zip"]

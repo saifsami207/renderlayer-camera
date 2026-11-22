@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Blender backups
+*.blend1
+*.blend2
+
+# Build artifacts (attach to GitHub Releases instead of committing)
+dist/
+build/
+*.zip
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
